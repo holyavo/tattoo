@@ -1,0 +1,83 @@
+.header{
+    background: url('/tattoo/img/bg_top.jpg') center / cover no-repeat;
+    
+    padding: 1.727% 0 23.384%;
+    
+}
+
+.header__container{
+    max-width: 795px;
+    
+    margin: 0 auto;
+
+}
+
+.navigation{
+    padding: 0 3%;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+    &__item{
+        display: inline;
+        
+        align-self: center;
+        font-size: 12px;
+        color: #1a1a1a;
+        
+        text-transform: uppercase;
+        
+        font-weight: 600;
+        
+        position: relative;
+        
+        &:after{
+            content: '';
+            width: 0;
+            height: 2px;
+            
+            background-color: #1a1a1a;
+            
+            position: absolute;
+            top: 20px;
+            left: 0;
+            
+            transition: width .2s linear;
+        }
+        
+        &:hover{
+            
+            &:after{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.logo{
+    
+    flex: 0 1 10px;
+    max-width: 100%;
+    
+}
+
+@media all and(max-device-width: 760px){
+    .header{
+        padding-bottom: 10%  ;
+    }
+    .menu__item{
+        display: none;
+    }
+    .menu-burger{
+        display: block !important;
+        
+        margin: 10% 0 0 !important;
+    }
+    .navigation{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

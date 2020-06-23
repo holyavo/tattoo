@@ -1,0 +1,175 @@
+.about__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    
+    flex: 1 1 50%;
+    
+    background: url('/tattoo/img/about__bg.jpg') center / cover no-repeat;
+    
+    min-height: 270px;
+    min-width: 360px;
+    
+    
+}
+
+.title{
+    font-size: calc(19px + 17 * (100vw / 1500));
+    text-transform: uppercase;
+    color: #010101;
+    
+    border: calc(5px + 5 * (100vw / 1500)) solid #121212;
+    
+    align-self: center;
+    
+    padding: 4% 8%;
+    
+    transition: .2s linear;
+    
+    &:hover{
+        background-color: rgba(242, 239, 229, .6);
+    }
+    
+}
+
+.about-text{
+    flex: 1 1 50%;
+    
+    background-color: #F2EFE5;
+    
+    padding: 6.067% 0 9.267%;
+}
+
+.about-text__body{
+    max-width: 575px;
+    
+    margin: 0 auto;
+    
+    
+    padding: 0 3%;
+    
+    p:first-of-type{
+        font-size: 18px;
+        line-height: 1.2;
+        color: #000;
+        
+        margin: 0 0 4.35%;
+        
+         text-align: center;
+        
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.2;
+        color: #000000;
+        text-align: left;
+        
+    }
+}
+
+.about-text__img{
+    display: block;
+    
+    margin: 0 auto 4.955%;
+}
+
+.about-works__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work{
+    flex: 1 0 16.6666666%;
+}
+.work__body{
+    
+    width: 100%;
+    height: auto;
+    
+    overflow: hidden;
+    position: relative;
+    
+    &>img{
+        height: auto;
+        width: 100%;
+        min-width: 250px;
+        
+        transition: transform .2s linear;
+    }
+    
+    &:after{
+        content: '';
+        width: 100%;
+        height: 100%;
+                
+        position: absolute;
+        top: 0;
+        left: 0;
+                
+        background-color: rgba(204, 200, 182);
+        opacity: 0;
+        
+        transition: opacity .2s linear;
+    }
+        
+    &:hover{
+        
+        &>img{
+            transform: scale(1.1);
+        }
+        a{
+            opacity: 1;
+            position: relative;
+            z-index: 2;
+        }
+        &:after{
+            opacity: .66;    
+        }
+    }
+        
+}
+
+.work__links{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    a{
+        transition: all .2s linear;
+        
+        opacity: 0;
+        display: inline-block;
+        &:first-of-type{
+            display: block;
+            margin: 40% auto 31px;
+
+            width: 30px;
+        }
+        
+        &:nth-of-type(2){
+            margin: 0 0 0 10px;
+        }
+        
+        &:nth-of-type(3){
+            margin: 0 40px;
+        }
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    
+
+    
+    
+}
+      
+

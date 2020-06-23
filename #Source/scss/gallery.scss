@@ -1,0 +1,21 @@
+.gallery__container{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.gallery__title{
+    flex: 1 1 40%;
+    
+    background-color: #AFAC9C;
+    
+    display: flex;
+    justify-content: center;
+    
+    min-height: 250px;
+    min-width: 360px;
+}
+
+.work--bigger{
+    flex: 1 1 20%;
+}

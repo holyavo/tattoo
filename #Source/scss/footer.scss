@@ -1,0 +1,28 @@
+.footer{
+    background-color: #aeaeae;
+    padding: 11.6% 0 4.62%;
+}
+
+.footer__container{
+    
+    max-width: 795px;
+    margin: 0 auto;
+
+}
+
+.footer__copyright{
+    margin: 13.5% 0 0;
+    
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000;
+    
+    text-align: center;
+}
+
+.footer__menu-burger.active{
+    transform: translateY(-1500%);
+}
+

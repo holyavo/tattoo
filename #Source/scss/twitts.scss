@@ -1,0 +1,29 @@
+.twitts{
+    background: url('/tattoo/img/twitts_bg.jpg') center / cover no-repeat;
+    
+    padding: 6.33% 0 9.65%;
+}
+
+.twitts__container{
+    max-width: 950px;
+    
+    margin: 0 auto;
+}
+
+.twitt{
+    font-size: calc(14px + 8 * (100vw / 1500));
+    line-height: 22px;
+    font-style: italic;
+    color: #f2efe5;
+}
+
+.twitt__logo{
+    
+    width: 32px;
+    margin: 0 auto 30px ;
+    
+}
+
+.twitt__text{
+    padding: 0 20px 10px;
+}
