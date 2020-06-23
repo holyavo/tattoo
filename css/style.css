@@ -247,7 +247,7 @@ body.lock {
   justify-content: center;
   flex: 1 1 50%;
   background: url("/tattoo/img/about__bg.jpg") center/cover no-repeat;
-  min-height: 270px;
+  min-height: 150px;
   min-width: 360px;
 }
 
@@ -367,8 +367,16 @@ body.lock {
 }
 
 @media all and (max-device-width: 753px) {
-  .work__body img {
+  .work__body > img {
     min-width: 180px;
+  }
+
+  .about-title {
+    min-width: 320px;
+  }
+
+  .work__links a:nth-of-type(3) {
+    margin: 0 30px;
   }
 }
 .testimonials {
@@ -427,7 +435,7 @@ body.lock {
   justify-content: center;
   flex: 1 1 33.3333333333%;
   background: url("/tattoo/img/team_bg.jpg") center/cover no-repeat;
-  min-height: 270px;
+  min-height: 150px;
   min-width: 360px;
 }
 
@@ -619,7 +627,7 @@ body.lock {
   background-color: #AFAC9C;
   display: flex;
   justify-content: center;
-  min-height: 250px;
+  min-height: 150px;
   min-width: 360px;
 }
 

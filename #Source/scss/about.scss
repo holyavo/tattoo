@@ -11,7 +11,7 @@
     
     background: url('/tattoo/img/about__bg.jpg') center / cover no-repeat;
     
-    min-height: 270px;
+    min-height: 150px;
     min-width: 360px;
     
     
@@ -165,11 +165,26 @@
         &:hover{
             transform: scale(1.1);
         }
+    } 
+}
+
+@media all and(max-device-width: 753px){
+    .work__body{
+        & > img{
+            min-width: 180px;
+        }
     }
     
-
+    .about-title{
+        min-width: 320px;
+    }
     
-    
+    .work__links{
+        
+        a:nth-of-type(3){
+            margin: 0 30px;
+        }
+    }
 }
       
 

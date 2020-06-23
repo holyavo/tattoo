@@ -14,6 +14,7 @@
 
 .navigation{
     padding: 0 3%;
+    position: relative;
     
 }
 .menu{
@@ -65,19 +66,23 @@
 
 @media all and(max-device-width: 760px){
     .header{
-        padding-bottom: 10%  ;
+        padding-bottom: 5%;
     }
     .menu__item{
         display: none;
     }
     .menu-burger{
         display: block !important;
-        
-        margin: 10% 0 0 !important;
+        align-self: center;
+        position: absolute !important;
+        right: 6%;
     }
     .navigation{
         display: flex;
-        align-items: center;
-        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .logo{
+        width: 200px;
     }
 }
