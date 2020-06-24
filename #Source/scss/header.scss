@@ -59,12 +59,12 @@
 
 .logo{
     
-    flex: 0 1 10px;
+    flex: 0 1 30%;
     max-width: 100%;
     
 }
 
-@media all and(max-device-width: 760px){
+@media all and(max-width: 760px){
     .header{
         padding-bottom: 5%;
     }

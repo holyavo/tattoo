@@ -194,7 +194,7 @@
     }
 }
 
-@media all and(max-device-width: 1080px){
+@media all and(max-width: 1080px){
     .member:nth-of-type(3) > .member__container{ //хз почему 3
         flex-direction: row-reverse;
     }

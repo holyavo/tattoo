@@ -178,7 +178,7 @@
     }
 }
 
-@media all and (max-device-width: 965px){
+@media all and (max-width: 965px){
     .contact-info{
         
         padding: 0;
@@ -209,7 +209,7 @@
     }
 }
 
-@media all and (max-device-width: 599px){
+@media all and (max-width: 599px){
     .contact-info{
         
         &__container{
@@ -229,7 +229,7 @@
     
 }
 
-@media all and (max-device-width: 400px){
+@media all and (max-width: 400px){
     .contact-info__social{
         width: 330px
     }
